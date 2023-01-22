@@ -1,0 +1,101 @@
+@media (max-width: 1200px) {
+  body {
+    background: url(../images/fundo-mobili.jpg) center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+  }
+
+  .fundo-video {
+    display: none;
+  }
+
+  .cabecalho nav li a {
+    color: #2873e2;
+  }
+
+  .cabecalho nav li a:hover {
+    background-color: #76b1cf;
+  }
+
+  main .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    gap: 30px;
+  }
+
+  main .container .god {
+    max-width: 20%;
+  }
+
+  main .container .informacoes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  main .container .descricao {
+    color: #084b6d;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  main .container .botao-trailer {
+    background-color: #3f91b9;
+  }
+
+  footer {
+    color: #000000;
+  }
+}
+
+@media (max-width: 1082px) {
+  main .container .god {
+    max-width: 25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .cabecalho {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .cabecalho nav li a {
+    color: #f4f6f8;
+  }
+
+  main .container .imagem-titulo {
+    max-width: 75%;
+  }
+
+  main .container .god {
+    max-width: 35%;
+  }
+
+  .modal .fechar-modal {
+    max-width: 30px;
+    line-height: 30px;
+  }
+
+  .modal #video {
+    width: 300px;
+    height: 169px;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 10px;
+    gap: 3px;
+  }
+}
+
+@media (max-width: 376px) {
+  .modal #video {
+    width: 250px;
+    height: 140px;
+  }
+}
